@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.search {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding: .5rem;
+    border: 2px dashed darkblue;
+}
+.search input {
+    width: 10rem;
+    border-radius: 2rem;
+    padding: .0625rem .5rem;
+}
+
+button {
+    outline: none;
+    background-color: mediumblue;
+    color: white;
+    padding: .25rem .5rem;
+}
+
+.intro {
+    background-color: lightskyblue;
+    color: mediumblue;
+
+}
+
+.intro ul li {
+    list-style: none;
+    border-bottom: 2px solid blue;
+    text-align: center;
+    padding: 1rem .5rem;
+    font-size: 1.5rem;
+}
+
+.intro ul li button {
+    font-size: 1.5rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
